@@ -44,5 +44,15 @@ try:
 except:
     print('Something went wrong...')
 
+message_template = read_template('template')
+
+msg = MIMEMultipart()
+message = message_template.substitute(KZT=kzt)
+msg['From']="currency@oizone.net"
+msg['To']="oizone@oizone.net"
+msg['Subject']="This is KZT"
+msg.attach(MIMEText(message, 'plain'))
+server.send_message(msg)
+del msg
 
 #s = smtplib.SMTP(host='your_host_address_here', port=your_port_here)
