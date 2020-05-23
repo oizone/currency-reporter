@@ -1,7 +1,13 @@
-From: you@gmail.com
-To: oizone@oizone.net
-Subject: OMG Super Important Message
+KZT: ${KZT_DIFF} €
+limit: ${KZT_LIMIT} €, kzt now: ${KZT}%
 
-Hey, what's up?
+MXN ${MXN_DIFF} €
+limit: ${MXN_LIMIT} €, mxn now: ${MXN}%
 
-- You
+RUB ${RUB_DIFF} €
+limit: ${RUB_LIMIT} €, rub now: ${RUB}%
+
+PLN ${PLN_DIFF} €
+limit: ${PLN_LIMIT} €, pln now: ${PLN}%
+
+- Your container
